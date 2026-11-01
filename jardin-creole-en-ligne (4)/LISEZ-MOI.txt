@@ -1,0 +1,25 @@
+JARDIN CRÉOLE – MISE EN LIGNE
+=============================
+
+Contenu du dossier
+  index.html     le jeu (page d'accueil)
+  three.min.js   la bibliothèque 3D (déjà incluse, rien à installer)
+  icons/         le logo (icône du site et de l'écran d'accueil)
+  manifest.webmanifest   permet « Ajouter à l'écran d'accueil » sur téléphone
+
+Mettre le jeu en ligne (aucun serveur ni base de données nécessaire)
+  1. Décompresse le fichier .zip.
+  2. Envoie TOUT le contenu du dossier (index.html, three.min.js, manifest.webmanifest ET le dossier icons) à la racine de ton hébergement
+     (OVH, o2switch, IONOS, etc.) avec le gestionnaire de fichiers ou un client FTP.
+  3. Ouvre l'adresse de ton site : le jeu se lance.
+
+Autres solutions gratuites
+  - Netlify Drop (app.netlify.com/drop) : glisse le dossier décompressé dans la page.
+  - GitHub Pages : dépose les deux fichiers dans un dépôt, puis active Pages.
+  - Cloudflare Pages ou Vercel : même principe.
+
+Bon à savoir
+  - Utilise une adresse en https:// pour que la sauvegarde et la musique fonctionnent bien sur téléphone.
+  - La sauvegarde est enregistrée dans le navigateur de chaque joueur (pas sur ton serveur).
+  - La police Lexend se charge depuis Google Fonts ; sans connexion, le jeu utilise une police de secours.
+  - Pour mettre à jour le jeu plus tard, remplace simplement index.html.
